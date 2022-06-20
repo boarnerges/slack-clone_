@@ -5,6 +5,8 @@ import Chat from './Components/Chat'
 import Login from './Components/Login'
 import styled from 'styled-components'
 import Header from './Components/Header'
+import Sidebar from "./Components/Sidebar";
+
 
 function App() {
   return (
@@ -34,11 +36,11 @@ export default App;
 const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background: orange;
     display: grid;
     grid-template-rows: 38px auto;
 `
 const Main = styled.div`
-background: blue;
-height
+      background: blue;
+      display:grid;
+      grid-template-columns: 260px auto;
 `
