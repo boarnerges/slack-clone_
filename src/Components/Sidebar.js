@@ -1,9 +1,10 @@
-import { Container } from '@material-ui/core'
-import React from 'react'
+import React , { Component}  from 'react';
+import ReactDOM from 'react-dom'
 import styled from 'styled-components'
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import {SidebarItemsData} from '../data/SidebarData'
 import AddIcon from '@mui/icons-material/Add';
+ 
 
 function Sidebar() {
   return (
@@ -26,7 +27,7 @@ function Sidebar() {
                 )
               )
             }
-        )
+        
         <MainChannelItem>
           <AddCircleOutlineIcon />
           Add
