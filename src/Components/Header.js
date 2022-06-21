@@ -18,7 +18,12 @@ Header() {
         <HelpOutlineIcon/>
         </Main>
         <UserContainer>
-          <Nam
+          <Name>
+            Jim Moriaty
+            </Name>
+          <UserImage>
+            <img src = "https://i.imgur.com/6VBx3io.png"/>
+            </UserImage>
 
         </UserContainer>
           
@@ -44,6 +49,9 @@ const SearchContainer = styled.div`
 const Search = styled.div`
 
  `
- const UserContainer = styled.div`
+ const Name = styled.div`
+ 
+ `
+ const UserImage = styled.div`
  
  `
