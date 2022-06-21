@@ -1,17 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+
 function 
 Header() {
   return (
     <Container>
         <Main>
-        <AccessTimeIcon/>
+        <AccessTimeIcon/> 
+        <SearchContainer> 
+            <Search> 
+              <input type = "text" placeholder = "search..."/>
+              </Search>
+          </SearchContainer>
+
+        <HelpOutlineIcon/>
         </Main>
-        {/* <UserContainer>
+        <UserContainer>
+          <Nam
 
         </UserContainer>
-         */}
+          
     </Container>
   )
 }
@@ -21,10 +31,19 @@ export default Header
 const Container = styled.div`
 
 `
-
 const Main = styled.div`
-background: red;
+  display: flex;
+
 `
 const UserContainer = styled.div`
-background: green;
+
 `
+const SearchContainer = styled.div`
+
+`
+const Search = styled.div`
+
+ `
+ const UserContainer = styled.div`
+ 
+ `
