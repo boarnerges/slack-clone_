@@ -1,4 +1,4 @@
-import React , { Component}  from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components'
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import {SidebarItemsData} from '../data/SidebarData'

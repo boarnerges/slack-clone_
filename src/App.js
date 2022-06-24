@@ -5,7 +5,7 @@ import Chat from './Components/Chat'
 import Login from './Components/Login'
 import styled from 'styled-components'
 import Header from './Components/Header'
-import Sidebar from "./Components/Sidebar";
+import Sidebar from './Components/Sidebar';
 
 
 function App() {
