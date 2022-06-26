@@ -1,8 +1,9 @@
+ // eslint-disable-next-line
 import React, { Component } from 'react';
 import styled from 'styled-components'
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+// import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import {SidebarItemsData} from '../data/SidebarData'
-import AddIcon from '@mui/icons-material/Add';
+// import AddIcon from '@mui/icons-material/Add';
  
 
 function Sidebar() {
@@ -13,7 +14,7 @@ function Sidebar() {
           Jim Moriaty
         </Name>
         <NewMessage>
-          <AddCircleOutlineIcon/>
+          {/* <AddCircleOutlineIcon/> */}
         </NewMessage>
       </WorkSpaceContainer>
       <MainChannels>
@@ -28,7 +29,7 @@ function Sidebar() {
             }
         
         <MainChannelItem>
-          <AddCircleOutlineIcon />
+          {/* <AddCircleOutlineIcon /> */}
           Add
         </MainChannelItem>
       </MainChannels>
@@ -43,7 +44,7 @@ function Sidebar() {
             </Channel>
 
           </ChannelList>
-        <AddIcon />  
+        {/* <AddIcon />   */}
         </NewChannelContainer>
        
       </ChannelsContainer>

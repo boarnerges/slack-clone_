@@ -1,43 +1,46 @@
-import MessageIcon from '@mui/icons-material/Message';
-import InboxIcon from '@mui/icons-material/Inbox';
-import DraftsIcon from '@mui/icons-material/Drafts';
-import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
-import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
-import AppsIcon from '@mui/icons-material/Apps';
+ // eslint-disable-next-line
+import React, { Component }  from 'react';
+// import MessageIcon from '@mui/icons-material/Message';
+// import InboxIcon from '@mui/icons-material/Inbox';
+// import DraftsIcon from '@mui/icons-material/Drafts';
+// import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
+// import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
+// import AppsIcon from '@mui/icons-material/Apps';
+
 
 export const SidebarItemsData = [
 
 {
-    icon: <MessageIcon />,
+    // icon: <MessageIcon />,
     text: "Thread"
 
 }, 
 
 {
-    icon: <InboxIcon />,
+    // icon: <InboxIcon />,
     text: "All DMs"
 
 },
 
 {
-    icon: <DraftsIcon />,
+    // icon: <DraftsIcon />,
     text: "Mentions & Reactions"
 
 },
 
 {
-    icon: <BookmarkBorderIcon />,
+    // icon: <BookmarkBorderIcon />,
     text: "Save Items"
 
 },
 {
-    icon: <PeopleAltIcon />,
+    // icon: <PeopleAltIcon />,
     text: "Peoples & Groups"
 
 },
 
 {
-    icon: <AppsIcon />,
+    // icon: <AppsIcon />,
     text: "More"
 
 }

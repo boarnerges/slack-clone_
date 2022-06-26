@@ -1,28 +1,29 @@
+ // eslint-disable-next-line
 import React from 'react'
 import styled from 'styled-components'
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
+// // import AccessTimeIcon from '@mui/icons-material/AccessTime';
+// import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 
 function 
 Header() {
   return (
     <Container>
         <Main>
-        <AccessTimeIcon/> 
+        {/* <AccessTimeIcon/>  */}
         <SearchContainer> 
             <Search> 
               <input type = "text" placeholder = "search..."/>
               </Search>
           </SearchContainer>
-
-        <HelpOutlineIcon/>
+{/* 
+        <HelpOutlineIcon/> */}
         </Main>
         <UserContainer>
           <Name>
             Jim Moriaty
             </Name>
           <UserImage>
-            <img src = "https://i.imgur.com/6VBx3io.png"/>
+            {/* <img src = "https://i.imgur.com/6VBx3io.png"/> */}
             </UserImage>
 
         </UserContainer>
